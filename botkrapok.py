@@ -239,7 +239,7 @@ async def sms(ctx, phone, amount:int):
     
 @bot.command()
 async def help(ctx):
-	emBed = discord.Embed(title="Bot BY: Hee",description="วิธิใช้",color=0xff4612)
+	emBed = discord.Embed(title="Bot BY: 𝘽𝙪𝙞𝙑𝙤𝙏𝙧𝙪𝙘",description="วิธิใช้",color=0xff4612)
 	emBed.add_field(name="#_#",value="+sms [เบอร์] [จำนวน]")
 	
 	
